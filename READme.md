@@ -22,9 +22,10 @@ Review basic MERN application development
   
   1. [Description](#description)
   2. [Installation](#installation)
-  3. [Usage](#usage)
-  4. [Technologies](#technologies)
-  5. [Links](#links)
+  3. [App development](#appdevelopment)
+  4. [Usage](#usage)
+  5. [Technologies](#technologies)
+  6. [Links](#links)
   
   
 ## Description
@@ -86,6 +87,29 @@ response should look like this:
     ➜  Local:   http://localhost:5173/
     ➜  Network: use --host to expose
     ➜  press h to show help
+
+## App Development
+
+### Client Side
+
+  * #### Build pages
+    
+    - create /client/src/pages/
+    - add 5 pages:
+      home.jsx, about.jsx. profile.jsx, signin.jsx, signup.jsx
+    - use rfc to create 'react functional component'on each page
+
+  * #### React Router Dom
+
+    - use terminal in client folder:
+
+        npm i react-router-dom
+
+    advantage is speed on page experience
+    
+    - edit App.js introducing routes
+
+
 
 ## Usage
 
