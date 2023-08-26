@@ -75,7 +75,17 @@ Strip out unnecessary files/delete:
 
 Run
 
-* npm run dev
+* currently just building client side
+  - cd client
+  - npm run dev
+
+response should look like this:
+
+    VITE v4.4.9  ready in 851 ms
+
+    ➜  Local:   http://localhost:5173/
+    ➜  Network: use --host to expose
+    ➜  press h to show help
 
 ## Usage
 
