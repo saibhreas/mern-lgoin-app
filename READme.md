@@ -43,7 +43,7 @@ Demonstrate grasp of software
 
 ## Installation
 
-NPM init create package.json
+NPM create vite@latest    create package.json
 
 npm install -g npm@8.12.2
 
