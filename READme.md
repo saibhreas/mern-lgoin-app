@@ -109,6 +109,12 @@ response should look like this:
     
     - edit App.js introducing routes
 
+  * #### Create basic look of page using App.jsx as wrapper
+
+    - cd to source and add folder: components
+    - create header component: header.jsx
+
+
 
 
 ## Usage
