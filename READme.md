@@ -24,13 +24,13 @@ Review basic MERN application development
   2. [Installation](#installation)
   3. [Usage](#usage)
   4. [Technologies](#technologies)
-  5. [Question](#questions)
+  5. [Links](#links)
   
   
 ## Description
 
 Very basic app that is mobile first, displaying:
- * Initial signup
+ * Initial sign up
  * Login/Authorization
  * Sign in with alternate ie. Google/ alternate Authorization
  * Delete
@@ -85,4 +85,12 @@ Free to read and fork.
 
 ## Technologies
 
-  * Node JS
+* Node JS
+
+## Links
+
+https://dev.to/envoy_/150-badges-for-github-pnk#workjobs
+
+https://github.com/progfay/shields-with-icon
+
+https://auth.100jsprojects.com/
