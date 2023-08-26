@@ -37,22 +37,29 @@ Very basic app that is mobile first, displaying:
  * Update
  * Log out
 
+Based on MERN Auth: Full-Stack MERN App Mastery by Dr. Sahand Ghavidel
+Web Developer
+
+
 Demonstrate grasp of software 
   * Reactjs
-  * Nodejs
+  * Nodejs + Vite
 
 ## Installation
 
-NPM create vite@latest    create package.json
+NPM create vite@latest client 
+* REACT
+* JavaScript + SWC
 
-npm install -g npm@8.12.2
+Dependencies:
+  - cd to folder for client side
+  * npm install
+  * npm run dev
+  * npm install -D tailwindcss postcss autoprefixer
+  * npx tailwindcss init -p
 
 
-Add Dependencies
 
-  * npm install inquirer
-  
-    Inquire library used to handle CLI
 
 ## Usage
 
