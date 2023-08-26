@@ -37,15 +37,25 @@ Very basic app that is mobile first, displaying:
  * Update
  * Log out
 
-Based on MERN Auth: Full-Stack MERN App Mastery by Dr. Sahand Ghavidel
-Web Developer
+Based on MERN Auth: Full-Stack MERN App Mastery by Dr. Sahand Ghavidel Web Developer
 
 
-Demonstrate grasp of software 
-  * Reactjs
-  * Nodejs + Vite
+Demonstrate grasp of software
+
+* Reactjs
+* Nodejs + Vite
 
 ## Installation
+
+### Development environment is VS Code
+
+- may need to install extensions:
+
+  * Prettier
+  * Tailwind CSS Intellisense
+  * Auto Rename Tag
+  * ES7+ React/Redux/React-Native snippets
+  * Console Ninja
 
 NPM create vite@latest client 
 * REACT
@@ -55,11 +65,17 @@ Dependencies:
   - cd to folder for client side
   * npm install
   * npm run dev
-  * npm install -D tailwindcss postcss autoprefixer
+  * npm install -D Tailwindcss postcss autoprefixer
   * npx tailwindcss init -p
 
+Strip out unnecessary files/delete:
+* vite.svg and react.svg
+* App.jsx: contents need to be changed
+  - delete contents and replace by typing 'rfc'(react functional component)
 
+Run
 
+* npm run dev
 
 ## Usage
 
