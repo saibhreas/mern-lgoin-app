@@ -147,6 +147,10 @@ Server is Node js with Mongo Database
   - edit package.json with:
 
         "type": "module",
+        "scripts": {
+           "dev": "nodemon api/index.js",
+           "start":"node api/index.js",
+         },
 
 * create **api folder** to house backend
 * create index.js
