@@ -1,6 +1,6 @@
 # TESTING SHIELDS BUILD
 
-## Follwing the steps
+## Following the steps
 
 * just filler
 
@@ -11,7 +11,9 @@
   <a href='https://www.linkedin.com/in/siobhanknuttel'>
       <img src='https://img.shields.io/badge/LinkedIn-blue?style=flat&logo=linkedin&labelColor=blue'>
   </a>
-  <a href='https://img.shields.io/badge/UpWork-6FDA44?style=for-the-badge&logo=Upwork&logoColor=white'>
+  <a href='https://www.upwork.com/freelancers/siobhank4?viewMode=1'> 
+    <img src='https://img.shields.io/badge/UpWork-6FDA44?style=for-the-badge&logo=Upwork&logoColor=white' witth="45" height="20"> 
+  </a>
 </p>
 
 <p></p>
