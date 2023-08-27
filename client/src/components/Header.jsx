@@ -1,16 +1,23 @@
-import React from 'react'
+import {Link} from 'react-router-dom'
 
 export default function Header() {
   return (
     <div className='bg-slate-200'>
-      <div className="flex justify-between items-center">
-        <h1 className='font-bold'>Basic MERN Auth App</h1>
-        <ul>
-          <li>Home</li>
-          <li>About</li>
-          <li>Sign In</li>
-          <li>Sign Up</li>
+      <div className="flex justify-between items-center max-w-6xl max-auto p-3">
+        <Link to='/'>
+          <h1 className='font-bold'>Basic MERN Auth App</h1>
+        </Link>
+        <ul className='flex gap-4'>
+          <Link to='/'>
+            <li>Home</li>
+          </Link>
+          <Link to='/about'>
+            <li>About</li>
+            </Link>
+          <Link to='sign-in'><li>Sign In</li></Link>
+          <Link to='sign-up'><li>Sign Up</li></Link>
         </ul>
+       
       </div>
       
       

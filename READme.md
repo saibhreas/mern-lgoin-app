@@ -33,27 +33,27 @@ Review basic MERN application development
   
 ## Description
 
-This file is two part. 
+### This file is two part example my work. 
 
-Part One:  Readme chronicles the progression through the Udemy course.  The Git repo is open to look at history.
-This is published as a demonstration of basic:
+#### Part One:  **READme.md** chronicles the progression through the Udemy course
+>  MERN Auth: Full-Stack MERN App Mastery by Dr. Sahand Ghavidel Web Developer
 
+This READme.MD is published as a demonstration of basic:
 
-Part Two **READme.md** 
+* Documentation standards
+* Technical writing
+* Understanding of technical concepts
+* Example of writing style
 
-  * technical writing concepts
- review of MERN App generation concepts.  
- 
-Very basic app that is mobile first, displaying:
- * Initial sign up
- * Login/Authorization
- * Sign in with alternate ie. Google/ alternate Authorization
- * Delete
- * Update
- * Log out
+#### Part Two **mern-lgoin-app** is a currently work in progress building a basic functioning MERN based login authroization app.
 
-Based on MERN Auth: Full-Stack MERN App Mastery by Dr. Sahand Ghavidel Web Developer
-
+*  review of MERN App generation concepts.  
+* Very basic app that is mobile first, displaying:
+  - Initial Sign up
+  - Login/Authorization
+  - Profile page
+  - Logout functionality
+  - Update functionality
 
 Demonstrate grasp of software
 
@@ -88,7 +88,7 @@ Strip out unnecessary files/delete:
 * App.jsx: contents need to be changed
   - delete contents and replace by typing 'rfc'(react functional component)
 
-Run
+### Run
 
 * currently just building client side
   - cd client
@@ -126,17 +126,17 @@ response should look like this:
   * #### Create uniform page display using App.jsx as wrapper
 
     - cd to source and add folder: components
-      
-      - introduce concept of components
-
+    - introduce concept of components
     - create header component: header.jsx
-
     - add import line to App.jsx
-
     - introduce closing tag grammar: 
-      
+
            <Header />
     - introduce Tailwinds concepts.
+    - Add links to the pages
+
+            import {Link} from 'react-router-dom'
+
 
 
 
@@ -151,9 +151,5 @@ Free to read and fork.
 * Node JS
 
 ## Links
-
-https://dev.to/envoy_/150-badges-for-github-pnk#workjobs
-
-https://github.com/progfay/shields-with-icon
 
 https://auth.100jsprojects.com/
