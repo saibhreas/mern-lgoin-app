@@ -102,6 +102,7 @@ response should look like this:
     ➜  Network: use --host to expose
     ➜  press h to show help
 
+
 ## App Development
 
 ### Client Side
@@ -137,7 +138,31 @@ response should look like this:
 
             import {Link} from 'react-router-dom'
 
+### Server Side Development
 
+Server is Node js with Mongo Database
+
+* cd to main folder abd initialize package.json
+
+  - edit package.json with:
+
+        "type": "module",
+
+* create **api folder** to house backend
+* create index.js
+
+       import express from 'express';
+
+* test server by entering in terminal:
+
+        http://localhost:5173/
+
+
+
+#### Server nodejs dependencies
+
+    * npm i express
+    * npm i nodemon
 
 
 ## Usage
