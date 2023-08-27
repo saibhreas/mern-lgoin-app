@@ -30,6 +30,17 @@ Review basic MERN application development
   
 ## Description
 
+This file is two part. 
+
+Part One:  Readme chronicles the progression through the Udemy course.  The Git repo is open to look at history.
+This is published as a demonstration of basic:
+
+
+Part Two **READme.md** 
+
+  * technical writing concepts
+ review of MERN App generation concepts.  
+ 
 Very basic app that is mobile first, displaying:
  * Initial sign up
  * Login/Authorization
@@ -109,11 +120,20 @@ response should look like this:
     
     - edit App.js introducing routes
 
-  * #### Create basic look of page using App.jsx as wrapper
+  * #### Create uniform page display using App.jsx as wrapper
 
     - cd to source and add folder: components
+      
+      - introduce concept of components
+
     - create header component: header.jsx
 
+    - add import line to App.jsx
+
+    - introduce closing tag grammar: 
+      
+           <Header />
+    - introduce Tailwinds concepts.
 
 
 
