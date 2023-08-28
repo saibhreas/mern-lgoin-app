@@ -19,23 +19,9 @@ Email: fullstack@saibhreas.com
 
 ## Purpose
 
-Review basic MERN application development
+### This REPO is two part example my work. 
 
-## Table of Content
-  
-  1. [Description](#description)
-  2. [Installation](#installation)
-  3. [App development](#appdevelopment)
-  4. [Usage](#usage)
-  5. [Technologies](#technologies)
-  6. [Links](#links)
-  
-  
-## Description
-
-### This file is two part example my work. 
-
-#### Part One:  **READme.md** chronicles the progression through the Udemy course
+#### Part One:  **READme.md**  and addtional **MD** files chronicle the progression through the Udemy course
 >  MERN Auth: Full-Stack MERN App Mastery by Dr. Sahand Ghavidel Web Developer
 
 This READme.MD is published as a demonstration of basic:
@@ -45,7 +31,7 @@ This READme.MD is published as a demonstration of basic:
 * Understanding of technical concepts
 * Example of writing style
 
-#### Part Two **mern-lgoin-app** is a currently work in progress building a basic functioning MERN based login authroization app.
+#### Part Two: **mern-lgoin-app** is currently a work in progress building a basic functioning MERN based login authroization app.
 
 *  review of MERN App generation concepts.  
 * Very basic app that is mobile first, displaying:
@@ -59,10 +45,33 @@ Demonstrate grasp of software
 
 * Reactjs
 * Nodejs + Vite
+* Expressjs
+* MongoDB (Mongoose)
 
-## Installation
+## Table of Content
+  
+[Description](#description)
 
-### Development environment is VS Code
+Build Stages
+
+  1. [Client Side](DevSetUo.md)
+
+  2. [Server Build ](ServerSide.md)
+
+  3. [Create Database](DBASEBuild.md)
+  
+[Usage](#usage)
+
+[Technologies](#technologies)
+
+[Links](#links)
+  
+  
+## Description
+
+The is an example of basic MERN object authorization/login app.  Front end is UI based on **REACT**, server for interface is **express**, back end uses **MongoDB**.
+
+The development environment was **VS Code**
 
 - may need to install extensions:
 
@@ -72,122 +81,8 @@ Demonstrate grasp of software
   * ES7+ React/Redux/React-Native snippets
   * Console Ninja
 
-NPM create vite@latest client 
-* REACT
-* JavaScript + SWC
-
-Dependencies:
-  - cd to folder for client side
-  * npm install
-  * npm run dev
-  * npm install -D Tailwindcss postcss autoprefixer
-  * npx tailwindcss init -p
-
-Strip out unnecessary files/delete:
-* vite.svg and react.svg
-* App.jsx: contents need to be changed
-  - delete contents and replace by typing 'rfc'(react functional component)
-
-### Run
-
-* currently just building client side
-  - cd client
-  - npm run dev
-
-response should look like this:
-
-    VITE v4.4.9  ready in 851 ms
-
-    ➜  Local:   http://localhost:5173/
-    ➜  Network: use --host to expose
-    ➜  press h to show help
 
 
-## App Development
-
-### Client Side
-
-  * #### Build pages
-    
-    - create /client/src/pages/
-    - add 5 pages:
-      home.jsx, about.jsx. profile.jsx, signin.jsx, signup.jsx
-    - use rfc to create 'react functional component'on each page
-
-  * #### React Router Dom
-
-    - use terminal in client folder:
-
-        npm i react-router-dom
-
-    advantage is speed on page experience
-    
-    - edit App.js introducing routes
-
-  * #### Create uniform page display using App.jsx as wrapper
-
-    - cd to source and add folder: components
-    - introduce concept of components
-    - create header component: header.jsx
-    - add import line to App.jsx
-    - introduce closing tag grammar: 
-
-           <Header />
-    - introduce Tailwinds concepts.
-    - Add links to the pages
-
-            import {Link} from 'react-router-dom'
-
-### Server Side Development
-
-Server is Node js with Mongo Database
-
-Server requires:
-
-  * **express** node framework
-  * Folder dedicated to its components
-  * Root File generally *server.js* or *index.js* 
-    - *this app utilizes index.js*
-
-* cd to main folder abd initialize package.json
-
-  - edit package.json with:
-
-        "type": "module",
-        "scripts": {
-           "dev": "nodemon api/index.js",
-           "start":"node api/index.js",
-         },
-
-    - *This allows the server to run and update while editing and testing*
-
-* create **api folder** to house backend
-* create index.js
-
-       import express from 'express';
-
-* test server by entering in terminal:
-
-        http://localhost:5173/
-
-
-
-#### Server nodejs dependencies
-
-    * npm i express
-    * npm i nodemon
-    * npm i dotenv
-    npm install mongoose
-
-#### Build out Mongo database
-
-Create a new mongoDB account, then add it as an environment variable on your machine (Mac) or Git Bash (Windows).
-
-    * npm install mongodb
-
-Create *.env* file in root to hide database password.
-
-  - *.env* files are text based key pairs.  Strings such as Mongo db url must be enclosed in "DOUBLE QUOTES".  Single '' will result in non connection to database.
 
 
 ## Usage
@@ -198,10 +93,12 @@ Free to read and fork.
 
 ## Technologies
 
-* Node JS
+* Node JS 
 
 ## Links
 
 https://auth.100jsprojects.com/
+
+[![Mongo DB](https://img.shields.io/badge/MongoDB-4EA94B?style=flat&logo=mongodb&logoColor=white)](https://university.mongodb.com/courses/M001/about)
 
 
