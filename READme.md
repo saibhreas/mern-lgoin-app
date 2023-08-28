@@ -54,7 +54,9 @@ Demonstrate grasp of software
 
 Build Stages
 
-  1. [Client Side](DevSetUo.md)
+  1. [Start](DevSetUp.md)
+
+  1. [Client Side](ClientSide.md)
 
   2. [Server Build ](ServerSide.md)
 
