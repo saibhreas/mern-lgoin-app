@@ -142,6 +142,13 @@ response should look like this:
 
 Server is Node js with Mongo Database
 
+Server requires:
+
+  * **express** node framework
+  * Folder dedicated to its components
+  * Root File generally *server.js* or *index.js* 
+    - *this app utilizes index.js*
+
 * cd to main folder abd initialize package.json
 
   - edit package.json with:
@@ -151,6 +158,8 @@ Server is Node js with Mongo Database
            "dev": "nodemon api/index.js",
            "start":"node api/index.js",
          },
+
+    - *This allows the server to run and update while editing and testing*
 
 * create **api folder** to house backend
 * create index.js
@@ -167,6 +176,18 @@ Server is Node js with Mongo Database
 
     * npm i express
     * npm i nodemon
+    * npm i dotenv
+    npm install mongoose
+
+#### Build out Mongo database
+
+Create a new mongoDB account, then add it as an environment variable on your machine (Mac) or Git Bash (Windows).
+
+    * npm install mongodb
+
+Create *.env* file in root to hide database password.
+
+  - *.env* files are text based key pairs.  Strings such as Mongo db url must be enclosed in "DOUBLE QUOTES".  Single '' will result in non connection to database.
 
 
 ## Usage
@@ -182,3 +203,5 @@ Free to read and fork.
 ## Links
 
 https://auth.100jsprojects.com/
+
+
