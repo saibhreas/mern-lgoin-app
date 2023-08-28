@@ -54,13 +54,13 @@ Demonstrate grasp of software
 
 Build Stages
 
-  1. [Start](DevSetUp.md)
+  1. [Start](/projectRead/DevSetUp.md)
 
-  1. [Client Side](ClientSide.md)
+  1. [Client Side](/projectRead/ClientSide.md)
 
-  2. [Server Build ](ServerSide.md)
+  2. [Server Build ](/projectRead/ServerSide.md)
 
-  3. [Create Database](DBASEBuild.md)
+  3. [Create Database](/projectRead/DBASEBuild.md)
   
 [Usage](#usage)
 
@@ -103,4 +103,6 @@ https://auth.100jsprojects.com/
 
 [![Mongo DB](https://img.shields.io/badge/MongoDB-4EA94B?style=flat&logo=mongodb&logoColor=white)](https://university.mongodb.com/courses/M001/about)
 
+
+https://json-generator.com/
 

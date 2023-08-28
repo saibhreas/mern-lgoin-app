@@ -20,4 +20,6 @@ Create a new mongoDB account, then add it as an environment variable on your mac
 
 Create *.env* file in root to hide database password.
 
-  - *.env* files are text based key pairs.  Strings such as Mongo db url must be enclosed in "DOUBLE QUOTES".  Single '' will result in non connection to database.
+  - *.env* files are text based key pairs.  Strings such as Mongo db url must be enclosed in "DOUBLE QUOTES".  Single quote'quote' will result in non connection to database.
+
+![screenshot](/images/threeElements2.png)
