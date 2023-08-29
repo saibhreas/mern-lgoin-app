@@ -88,7 +88,29 @@ Create *\BasicMERNapp\controllers\usersController.js*:
       });
     };  
 
-    
+#### Separate User from Authentication
+
+Create *\BasicMERNapp\api\routes\auth.route.js*
+
+      import { Express } from "express";
+
+      const router = express();
+
+      router.post('/signup')
+
+      export default router;
+
+Edit *\BasicMERNapp\api\index.js*
+
+      import userRoutes from './routes/user.route.js';
+      import authRoutes from './routes/auth.route.js';
+
+      app.use('/api/auth', authRoutes);
+Create *\BasicMERNapp\api\controllers\auth.controller.js*
+
+      
+
+
 Commit changes and upload to origin
 
 
