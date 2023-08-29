@@ -99,14 +99,11 @@ Free to read and fork.
 
 ## Technologies
 
-* Node JS 
+* Node JS [![Mongo DB](https://img.shields.io/badge/MongoDB-4EA94B?style=flat&logo=mongodb&logoColor=white)](https://university.mongodb.com/courses/M001/about)
 
 ## Links
 
 https://auth.100jsprojects.com/
-
-[![Mongo DB](https://img.shields.io/badge/MongoDB-4EA94B?style=flat&logo=mongodb&logoColor=white)](https://university.mongodb.com/courses/M001/about)
-
 
 https://json-generator.com/
 

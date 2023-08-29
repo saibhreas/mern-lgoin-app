@@ -1,5 +1,6 @@
 import mongoose from 'mongoose';
 
+{/* Define Schema*/}
 const userSchema = new mongoose.Schema({
   username: {
     type: String,
@@ -20,4 +21,9 @@ const userSchema = new mongoose.Schema({
     type: String,
     required: true,
   },
-});
+}, {timestamps:true});
+{/* timestamps used to demonstrates using data that Mongo DB collects on its own*/}
+
+{/* Create the model -- variable must be Upper Case*/}
+const User = mongoose.model('User', userSchema);
+export default User;

@@ -48,9 +48,31 @@ Create *.env* file in root to hide database password.
 
 ### Create User model
   
-Set up a home for your test database to reside. Create a test database on the criteria of the object.
+Set up a home for your test database to reside. Create a test database on the criteria (schema) of the object.
+
+Easy way to map out you schema when building sample data is to use JSON format.
 
 #### *Sites like **https://json-generator.com/** can help*
+
+### Create: *\BasicMERNapp\api\models\user.model.js*
+
+      import mongoose from'mongoose';
+      {/* Define Schema*/}
+      const userSchema = new mongoose.Schema({
+         username: {
+          type: String,
+          required: [true, 'Please provide a Username'],
+          unique: true,
+          }
+      }, {timestamps:true});
+      
+      {/* timestamps used to demonstrates using data that Mongo DB collects on its own*/}
+
+      {/* Create the model -- variable must be Upper Case*/}
+      const User = mongoose.model('User', userSchema);
+      export default User;
+
+
 
 Commit changes and upload to origin
 
