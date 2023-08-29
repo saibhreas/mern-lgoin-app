@@ -14,6 +14,8 @@ Basic MERN APP
 
 # Build out Mongo database
 
+![screenshot](/images/threeElements2.png)
+
 Create a new mongoDB account, then add it as an environment variable on your machine (Mac) or Git Bash (Windows).
 
     npm install mongodb
@@ -41,8 +43,6 @@ Initialize Dotenv:
 Create *.env* file in root to hide database password.
 
   - *.env* files are text based key pairs.  Strings such as Mongo db url must be enclosed in "DOUBLE QUOTES".  Single quote'quote' will result in non connection to database.
-
-![screenshot](/images/threeElements2.png)
 
 ## Framework for data 
 
