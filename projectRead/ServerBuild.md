@@ -82,7 +82,13 @@ Edit *\BasicMERNapp\api\index.js*
 
 Create *\BasicMERNapp\controllers\usersController.js*:
 
+    export const test = (req, res) => {
+     res.json ({
+       message: 'API is working thru the Controller',
+      });
+    };  
 
+    
 Commit changes and upload to origin
 
 
