@@ -78,6 +78,11 @@ Edit *\BasicMERNapp\api\index.js*
 
       import userRoutes from './routes.user.routes.js';
 
+### Controllers introduced to hold logic for individual routes.
+
+Create *\BasicMERNapp\controllers\usersController.js*:
+
+
 Commit changes and upload to origin
 
 [Home](/READme.md)

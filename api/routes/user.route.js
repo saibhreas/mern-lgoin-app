@@ -1,11 +1,10 @@
 import express from 'express';
 
-const router = express.Router()
+import { test} from '../controllers/user.controller.js';
 
-router.get('/', (req, res) => {
-  res.json({
-    message: 'First API is working',
-  });
-});
+
+const router = express.Router();
+
+router.get('/', test);
 
 export default router;
