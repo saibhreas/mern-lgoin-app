@@ -22,9 +22,9 @@
 
   * #### Build pages
     
-    - create /client/src/pages/
+    - create: */client/src/pages/*
     - add 5 pages:
-      home.jsx, about.jsx. profile.jsx, signin.jsx, signup.jsx
+      *Home.jsx*, *About.jsx*, *Profile.jsx*, *Signin.jsx*, *Signup.jsx*
     - use rfc to create 'react functional component'on each page
 
   * #### React Router Dom
@@ -35,20 +35,43 @@
 
     advantage is speed on page experience
     
-    - edit App.js introducing routes
+    - edit App.js introducing routes adding:
+
+          import { BrowserRouter, Routes, Route} from 'react-router-dom';
+
+      * edit module return to include *BrowserRouter*
+
+             export default function App() {
+              return (
+                <BrowserRouter>{/*header*/}
+                 <Header />
+                 <Routes>
+                  <Route path="/" element={<Home />}/>
+                  <Route path="/about" element={<About />}/>
+                  <Route path="/sign-in" element={<SignIn />}/>
+                  <Route path="/sign-up" element={<SignUp />}/>
+                  <Route path="/profile" element={<Profile />}/>
+                 </Routes>
+              </BrowserRouter>
+              );
+            }
 
   * #### Create uniform page display using App.jsx as wrapper
 
-    - cd to source and add folder: components
-    - introduce concept of components
-    - create header component: header.jsx
-    - add import line to App.jsx
-    - introduce closing tag grammar: 
+Add folder and file:*client\src\components\header.jsx*
 
-           <Header />
-    - introduce Tailwinds concepts.
-    - Add links to the pages
+Adding *header.jsx* path to *App.jsx* above the routes makes each page have a uniform component called header.
 
-            import {Link} from 'react-router-dom'
+**course introduces closing tag grammar:
+
+    <Header />
+
+Style the header using Tailwinds Css. Set up menubar and links.
+
+Add links to the pages
+
+     import {Link} from 'react-router-dom'
+
+
 
 [Home](/READme.md)
