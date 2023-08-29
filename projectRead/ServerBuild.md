@@ -34,7 +34,7 @@ Server requires:
 
     - *This allows the server to run and update while editing and testing*
 
-* create **api folder** to house backend
+* create *\BasicMERNapp\api* to house backend
 * create index.js
 
        import express from 'express';
@@ -52,5 +52,6 @@ Server requires:
     * npm i dotenv
     npm install mongoose
 
+Commit changes and upload to origin
 
 [Home](/READme.md)

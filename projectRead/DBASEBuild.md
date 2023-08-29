@@ -32,4 +32,6 @@ Set up a home for your test database to reside. Create a test database on the cr
 
 #### *Sites like **https://json-generator.com/** can help*
 
+Commit changes and upload to origin
+
 [Home](/READme.md)

@@ -72,6 +72,6 @@ Add links to the pages
 
      import {Link} from 'react-router-dom'
 
-
+Commit changes and upload to origin
 
 [Home](/READme.md)
