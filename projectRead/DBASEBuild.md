@@ -16,7 +16,27 @@ Basic MERN APP
 
 Create a new mongoDB account, then add it as an environment variable on your machine (Mac) or Git Bash (Windows).
 
-    * npm install mongodb
+    npm install mongodb
+    npm i dontenv
+    npm install mongoose
+
+
+Edit *\BasicMERNapp\api\index.js* to include added modules
+
+    import dotenv from 'dotenv';
+    import mongoose from 'mongoose';
+
+Initialize Dotenv:
+
+    dotenv.config();
+    mongoose
+      .connect(process.env.MONGO) 
+      .then(() => {
+         console.log('Connected to MongoDB');
+       })
+      .catch((err) => {
+         console.log(err);
+    });
 
 Create *.env* file in root to hide database password.
 
