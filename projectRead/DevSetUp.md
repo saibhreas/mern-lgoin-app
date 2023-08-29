@@ -31,3 +31,6 @@ Strip out unnecessary files/delete:
 * vite.svg and react.svg
 * App.jsx: contents need to be changed
   - delete contents and replace by typing 'rfc'(react functional component)
+
+[Home](/READme.md)
+

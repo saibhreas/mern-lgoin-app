@@ -23,3 +23,13 @@ Create *.env* file in root to hide database password.
   - *.env* files are text based key pairs.  Strings such as Mongo db url must be enclosed in "DOUBLE QUOTES".  Single quote'quote' will result in non connection to database.
 
 ![screenshot](/images/threeElements2.png)
+
+## Framework for data 
+
+### Create User model
+  
+Set up a home for your test database to reside. Create a test database on the criteria of the object.
+
+#### *Sites like **https://json-generator.com/** can help*
+
+[Home](/READme.md)
