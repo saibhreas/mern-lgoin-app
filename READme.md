@@ -31,6 +31,10 @@ This READme.MD is published as a demonstration of basic:
 * Understanding of technical concepts
 * Example of writing style
 
+*READme.md* files should be at the least: readable, concise, organized, and succinct.  They should have a style that reflects the purpose of the repository, the project, or the app it represent.  
+
+
+
 #### Part Two: **mern-lgoin-app** is currently a work in progress building a basic functioning MERN based login authroization app.
 
 *  review of MERN App generation concepts.  
