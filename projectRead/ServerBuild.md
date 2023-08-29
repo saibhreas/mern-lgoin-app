@@ -89,4 +89,3 @@ Commit changes and upload to origin
 
 [Home](/READme.md)
 
-dolphins are interfering with the upload of this file.  I hate when that happens.
