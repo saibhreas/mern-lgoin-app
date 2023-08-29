@@ -34,15 +34,15 @@ Server requires:
 
     - *This allows the server to run and update while editing and testing*
 
-* create *\BasicMERNapp\api* to house backend
-* create index.js
+### Build basic server file
 
-       import express from 'express';
+create *\BasicMERNapp\api\index.js* to house backend edit with:
+
+      import express from 'express';
 
 * test server by entering in terminal:
 
         http://localhost:5173/
-
 
 
 #### Server nodejs dependencies
@@ -51,6 +51,32 @@ Server requires:
     * npm i nodemon
     * npm i dotenv
     npm install mongoose
+
+
+## API Framing for basic route and CRUD testing
+
+This is the initial framing out of the  API routes, and behaviors.  Once simple processes are proofed, then the files will be reorganized for clarity and modularity for changes, edits and upgrades.
+
+This is done after connection with database had been established.
+
+Create *\BasicMERNapp\api\routes\user.route.js* 
+
+      import express from 'express';
+      const router = express.Router()
+
+      router.get('/', (req, res) => {
+        res.json({
+          message: 'First API is working',
+        });
+      });
+
+      export default router;
+      {/* Since exported as default it needs to be imported to index.js*/}
+    
+    
+Edit *\BasicMERNapp\api\index.js* 
+
+      import userRoutes from './routes.user.routes.js';
 
 Commit changes and upload to origin
 
