@@ -62,7 +62,7 @@ Build Stages
 
   1. [Client Side](/projectRead/ClientSide.md)
 
-  2. [Server Build ](/projectRead/ServerSide.md)
+  2. [Server Build ](/projectRead/Build.md)
 
   3. [Create Database](/projectRead/DBASEBuild.md)
   
