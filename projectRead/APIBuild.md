@@ -68,7 +68,17 @@ Edit *\BasicMERNapp\api\index.js*
       app.use('/api/auth', authRoutes);
 Create *\BasicMERNapp\api\controllers\auth.controller.js*
 
-      
+      import User from "../models/user.model.js";
+
+      export const signup = (req, res)=> {
+  
+       const { name, email, password} = req.body;
+       const newUser = new User({name, email, password});
+       await newUser.save()
+      };
+
+  - await is added for asynchrony, want to keep the state open until the information is received.
+Open Postman or Insomnia and create a collection.
 
 
 Commit changes and upload to origin
