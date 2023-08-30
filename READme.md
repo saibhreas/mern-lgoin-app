@@ -19,12 +19,12 @@ Email: fullstack@saibhreas.com
 
 ## Purpose
 
-### This REPO is two part example my work. 
+### This REPO is two part demonstration of my work. 
 
-#### Part One:  **READme.md**  and addtional **MD** files chronicle the progression through the Udemy course
+#### Part One:  *READme.md*  and addtional **MD** files chronicle the progression through the Udemy course
 >  MERN Auth: Full-Stack MERN App Mastery by Dr. Sahand Ghavidel Web Developer
 
-This READme.MD is published as a demonstration of basic:
+This *READme.MD* is published as a demonstration of basic:
 
 * Documentation standards
 * Technical writing
