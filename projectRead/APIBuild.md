@@ -103,7 +103,7 @@ Test by creating a **POST** to localhost:3000
 
 Poor practice to leave password exposed in database. Add **node.bcrypt.js** to encode the password.
 
-    npm install bcrypt
+    npm install bcrypt.js
 
 Edit *R\BasicMERNapp\api\controllers\auth.controller.js* to import Bcrypt.
 
