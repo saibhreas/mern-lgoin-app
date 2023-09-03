@@ -68,6 +68,8 @@ Build Stages
   3. [Create Database](/projectRead/DBASEBuild.md)
 
   4. [Build API's](/projectRead/APIBuild.md)
+
+  5. [Build Middleware](/projectRead/Middleware.md)
   
 [Usage](#usage)
 
