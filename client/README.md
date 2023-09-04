@@ -1,8 +1,17 @@
-# React + Vite
+<p align='center'>
+  <a href="https://github.com/saibhreas">
+    <img src="https://img.shields.io/badge/GitHub-100000?style=flat&logo=github&logoColor=white">
+  </a>  
+  <a href='https://www.linkedin.com/in/siobhanknuttel'>
+      <img src='https://img.shields.io/badge/LinkedIn-blue?style=flat&logo=linkedin&labelColor=blue'>
+  </a>
+    <a href='https://www.upwork.com/freelancers/siobhank4?viewMode=1'> 
+    <img src='https://img.shields.io/badge/UpWork-6FDA44?style=for-the-badge&logo=Upwork&logoColor=white' witth="45" height="20"> 
+  </a>
+  
+</p>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Basic MERN APP
 
-Currently, two official plugins are available:
+chronicle of  playing with style
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
