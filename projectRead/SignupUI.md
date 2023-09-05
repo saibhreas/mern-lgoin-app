@@ -14,3 +14,9 @@
 Basic MERN APP
 
 # Build Sign Up page UI
+
+create forData
+const HandleChange
+import {useState} from 'react';
+
+const handleSubmit = async
