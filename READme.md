@@ -70,6 +70,10 @@ Build Stages
   4. [Build API's](/projectRead/APIBuild.md)
 
   5. [Build Middleware](/projectRead/Middleware.md)
+
+  6. [Build Singn Up]
+
+  7. [Build Sign IN]
   
 [Usage](#usage)
 
