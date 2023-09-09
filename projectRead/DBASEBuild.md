@@ -52,7 +52,7 @@ Set up a home for your test database to reside. Create a test database on the cr
 
 Easy way to map out you schema when building sample data is to use JSON format.
 
-#### *Sites like **https://json-generator.com/** can help*
+#### *Sites like **https://json-generator.com/** or **https://generatedata.com/generator** can help*
 
 ### Create: *\BasicMERNapp\api\models\user.model.js*
 
