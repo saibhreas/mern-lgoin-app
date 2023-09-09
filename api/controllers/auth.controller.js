@@ -24,7 +24,11 @@ export const signin = async (req, res, next) =>{
     const validPassword = bcryptjs.compareSync(password, validUser.password);
     if(!validPassword) return next(errorHandler(401, "Not even close"));
     const token = jwt.sign({ id: validUser._id }, process.env.JWT_SECRET);
-    res.cookie('access_token', token, {httpOnly: true}).status(200).json(validUser);
+    const { password: hashedPassword, ...rest} = validUser._doc;
+    res
+    .cookie('access_token', token, {httpOnly: true})
+    .status(200)
+    .json(rest);
   } catch (error) {
     next (error);
   };
