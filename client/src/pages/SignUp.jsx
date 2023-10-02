@@ -3,7 +3,7 @@ import { useState } from 'react';
 
 export default function SignUp() {
   const [formData, setFormData] = useState({});
-  const [error, setError] = useState(false);
+  const [error, setError] = useState(null);
   const [loading, setLoading] = useState(false);
   const navigate = useNavigate();
   const handleChange = (e)=>{
@@ -28,7 +28,8 @@ export default function SignUp() {
       if (data.success === false) {
         setError(true);
         return;
-      }
+      };
+      setError (false);
       navigate('/sign-in');
     } catch (error) {
       setLoading(false);
@@ -69,7 +70,7 @@ export default function SignUp() {
           <span className='text-blue-600'>Sign In</span>
         </Link> 
       </div>
-      <p className='text-red-600 mt-5'>{error && 'OOPS again, something went wrong!'}</p>
+      <p className='text-red-600 mt-5'>{error && 'UhOhh' }</p>
     </div>
   );
 }
