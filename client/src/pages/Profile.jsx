@@ -1,13 +1,16 @@
 import { useSelector } from 'react-redux';
 import { useRef, useState, useEffect } from 'react';
-import { getStorage, ref, uploadBytesResumable } from 'firebase/storage';
+import { getDownloadURL, getStorage, ref, uploadBytesResumable } from 'firebase/storage';
 import { app } from '../firebase';
 
 export default function Profile() {
   const fileRef = useRef(null);
   const [image, setImage] = useState(undefined);
   const [imagePercent, setImagePercent] = useState(0);
-  console.log(image);
+  const [imageError, setImageError] = useState(false);
+  const [formData, setFormData] = useState({});
+  console.log(formData);
+  
   const { currentUser } = useSelector((state) => state.user);
   useEffect(() => {
     if (image) {
@@ -25,7 +28,17 @@ export default function Profile() {
         const progress =
           (snapshot.bytesTransferred / snapshot.totalBytes) * 100;
         setImagePercent(Math.round(progress));
-        console.log(progress);
+      },
+      (error) =>{
+        setImageError(true)
+      },
+      ()=>{
+        getDownloadURL(uploadTask.snapshot.ref).then((downloadURL) => {
+          setFormData({...formData, profilePicture:downloadURL});
+          
+        }).catch((err) => {
+          
+        });
       }
  
     );
