@@ -61,7 +61,7 @@ export default function Profile() {
       request.resource.size < 2 * 1024 * 1024 &&
       request.resource.contentType.matches('image/.*') */}
         <img
-          src={currentUser.profilePicture}
+          src={formData.profilePicture || currentUser.profilePicture}
           alt='profile icon'
           className=' h-24 w-24 self-center 
             rounded-full
@@ -70,7 +70,7 @@ export default function Profile() {
             cursor-pointer'
           onClick={() => fileRef.current.click()}
         ></img>
-        <p>
+        <p className='text-sm self-center'>
           {imageError ? (
             <span className='text-red-700'>
               Error Uploading Image
