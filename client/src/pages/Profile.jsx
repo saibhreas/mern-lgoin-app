@@ -9,8 +9,7 @@ export default function Profile() {
   const [imagePercent, setImagePercent] = useState(0);
   const [imageError, setImageError] = useState(false);
   const [formData, setFormData] = useState({});
-  console.log(formData);
-  
+    
   const { currentUser } = useSelector((state) => state.user);
   useEffect(() => {
     if (image) {
@@ -71,6 +70,19 @@ export default function Profile() {
             cursor-pointer'
           onClick={() => fileRef.current.click()}
         ></img>
+        <p>
+          {imageError ? (
+            <span className='text-red-700'>
+              Error Uploading Image
+            </span> 
+          ) : imagePercent > 0 && imagePercent < 100 ? (
+              <span className='text-slate-600'> {imagePercent}% uploaded </span>
+          ) : imagePercent === 100 ? (
+            <span className ='text-green-700'>Image Uploaded Success</span>
+          ):(
+            ''
+          )}
+        </p>
         <input
           defaultValue={currentUser.username}
           type='text'
