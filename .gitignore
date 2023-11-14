@@ -6,3 +6,4 @@ build
 MongoSchema.node_modules
 .vscode
 users_tes.json
+Notes.md
