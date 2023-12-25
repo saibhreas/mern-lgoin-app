@@ -1,7 +1,12 @@
 import { useSelector } from 'react-redux';
 import { useRef, useState, useEffect } from 'react';
-import { getDownloadURL, getStorage, ref, uploadBytesResumable } from 'firebase/storage';
+import { getDownloadURL, 
+  getStorage, 
+  ref, 
+  uploadBytesResumable 
+} from 'firebase/storage';
 import { app } from '../firebase';
+import { useDispatch } from 'react-redux';
 
 export default function Profile() {
   const fileRef = useRef(null);
@@ -42,6 +47,14 @@ export default function Profile() {
  
     );
   };
+
+  const handleDeleteAccount = async() =>{
+    try{
+
+    }catch(error){
+      
+    }
+  }
 
   return (
     <div className='p-3 max-w-lg mx-auto'>
@@ -89,6 +102,7 @@ export default function Profile() {
           id='username'
           placeholder='User name'
           className='bg-slate-100 rounded-lg p-3 '
+          onChange={handleChange}
         />
         <input
           defaultValue={currentUser.email}
@@ -96,20 +110,26 @@ export default function Profile() {
           id='email'
           placeholder='Email'
           className='bg-slate-200 rounded-lg p-3 '
+          onChange={handleChange}
         />
         <input
           type='password'
           id='password'
           placeholder='Password'
           className='bg-slate-200 rounded-lg p-3 '
+          onChange={handleChange}
         />
         <button className='bg-slate-700 hover:opacity-90 disabled:opacity-75 rounded-lg p-3 uppercase text-white'>
-          Update
+          {loading ? 'Loading...' : 'Update'}
         </button>
       </form>
       <div className='flex justify-between p-3-between mt-5'>
-        <span className='text-red-700 cursor-pointer '>Delete Account</span>
-        <span className='text-orange-500 uppercase font-semibold cursor-pointer'>
+        <span 
+        onChange={handleDeleteAccount}
+        className='text-red-700 cursor-pointer '>Delete Account</span>
+        <span 
+        onChange={handleSignOut}
+        className='text-orange-500 uppercase font-semibold cursor-pointer'>
           Log Out
         </span>
       </div>
