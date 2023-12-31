@@ -24,3 +24,7 @@ https://dev.to/envoy_/150-badges-for-github-pnk#workjobs
 
 
 https://github.com/progfay/shields-with-icon
+
+
+<img src='https://img.shields.io/badge/REACT-black?style=flat'>
+<img src='https://img.shields.io/badge/-ReactJs-61DAFB?logo=react&logoColor=white&style=flat'>

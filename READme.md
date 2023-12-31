@@ -5,7 +5,7 @@
   <a href='https://www.linkedin.com/in/siobhanknuttel'>
       <img src='https://img.shields.io/badge/LinkedIn-blue?style=flat&logo=linkedin&labelColor=blue'>
   </a>
-    <a href='https://www.upwork.com/freelancers/siobhank4?viewMode=1'> 
+   <a href='https://www.upwork.com/freelancers/saibhreas'>  
     <img src='https://img.shields.io/badge/UpWork-6FDA44?style=for-the-badge&logo=Upwork&logoColor=white' witth="45" height="20"> 
   </a>
   
