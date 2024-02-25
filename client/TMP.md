@@ -6,7 +6,7 @@
       <img src='https://img.shields.io/badge/LinkedIn-blue?style=flat&logo=linkedin&labelColor=blue'>
   </a>
    <a href='https://www.upwork.com/freelancers/saibhreas'>  
-    <img src='https://img.shields.io/badge/UpWork-6FDA44?style=flat&logo=Upwork&logoColor=white' witth="45" height="20"> 
+    <img src='https://img.shields.io/badge/UpWork-6FDA44?style=for-the-badge&logo=Upwork&logoColor=white' witth="45" height="20"> 
   </a>
   
 </p>
@@ -24,7 +24,7 @@ Email: fullstack@saibhreas.com
 #### Part One:  *READme.md*  and addtional **MD** files chronicle the progression through the Udemy course:
 [MERN Auth: Full-Stack MERN App Mastery by Dr. Sahand Ghavidel Web Developer](https://www.udemy.com/course/mern-auth-full-stack/)
 
-<img src='https://img.shields.io/badge/markdown-%23000000.svg?style=flat&logo=markdown&logoColor=white'> This *READme.MD* is published as a demonstration of basic:
+This *READme.MD* is published as a demonstration of basic:
 
 * Documentation standards
 * Technical writing
@@ -47,17 +47,11 @@ Email: fullstack@saibhreas.com
 
 Demonstrate grasp of software
 
-* <img src='https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=flat&logo=visual-studio-code&logoColor=white'>development principles such as modularity, security,
-
-* <img src='https://img.shields.io/badge/-ReactJs-61DAFB?logo=react&logoColor=white&style=flat'>
-
-* <img src='https://img.shields.io/badge/node.js-6DA55F?style=flat&logo=node.js&logoColor=white'> + <img src='https://img.shields.io/badge/vite-%23646CFF.svg?style=flat&logo=vite&logoColor=white'>
-
-* <img src='https://img.shields.io/badge/express.js-%23404d59.svg?style=flat&logo=express&logoColor=%2361DAFB'>
-
-* <img src='https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=flat&logo=mongodb&logoColor=white'>  with Mongoose
-
-* <img src='https://img.shields.io/badge/Insomnia-black?style=flat&logo=insomnia&logoColor=5849BE'>
+* Reactjs
+* Nodejs + Vite
+* Expressjs
+* MongoDB (Mongoose)
+* Insomnia
 
 ## Table of Content
   
@@ -114,17 +108,8 @@ Free to read and fork.
 
 ## Technologies
 
-* <img src='https://img.shields.io/badge/node.js-6DA55F?logo=react&logoColor=white&style=flat'>
-
-* <img src='https://img.shields.io/badge/MongoDB-4EA94B?style=flat&logo=mongodb&logoColor=white'>
-
-
-
+* Node JS [![Mongo DB](https://img.shields.io/badge/MongoDB-4EA94B?style=flat&logo=mongodb&logoColor=white)](https://university.mongodb.com/courses/M001/about)
 
 ## Links
 
 https://auth.100jsprojects.com/
-
-https://json-generator.com/
-
-Dolphins:away for a bit, finding errors, fishing for dolphins at the end of september.

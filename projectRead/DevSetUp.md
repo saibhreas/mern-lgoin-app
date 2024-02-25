@@ -68,7 +68,7 @@ Your response should look like this:
     ➜  Network: use --host to expose
     ➜  press h to show help
 
-### **Before usig Git Source Control teate a *.gitignore* to stop unnecessary files from being under control**
+### **Before usig Git Source Control create a *.gitignore* to stop unnecessary files from being under control**
 
 Commit changes and upload to origin
 
